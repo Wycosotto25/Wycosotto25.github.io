@@ -1,0 +1,17 @@
+.memNav{
+    background-color:#102542;
+    position:fixed;
+    width:100%;
+    color:white;
+}
+
+.firstSec{
+    background-color:#102542;;
+    color:white;
+}
+
+.memNav ul li{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+}

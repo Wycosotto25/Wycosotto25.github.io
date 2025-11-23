@@ -1,0 +1,124 @@
+body{
+    background-color:#102542;
+}
+
+nav{
+    position:fixed;
+    margin-top:-200px;
+    display:inline-block;
+    width:1500px;
+}
+
+.icon{
+    width:65px;
+    margin-left:60px;
+    margin-top:20px;
+
+}
+
+.navlinks{
+    float:right;
+    margin-right:35px;
+    color:white;
+    text-decoration:none;
+    font-family:arial;
+    padding:15px;
+    margin-top:20px;
+}
+
+.navlinks:hover{
+    color:#F87060;
+    transition:.5s;
+}
+
+h2{
+    font-family:verdana;
+    display:inline-block;
+    position:relative;
+    top:-15px;
+    margin-left:8px;
+    color:#F87060;
+    font-size:25px;
+}
+
+.hello{
+    font-size:25px;
+    font-family:sans-serif;
+    margin-top:200px;
+    margin-left:180px;
+    color:white;
+    margin-bottom:0px;
+}
+
+.name{
+    font-size:35px;
+    font-family:sans-serif;
+    margin-top:-30px;
+    margin-left:180px;
+    color:white;
+
+}
+.Im-a{
+    font-size:25px;
+    font-family:sans-serif;
+    color:white;
+    margin-left:180px;
+    margin-top:-30px;  
+}
+
+span{
+    color:#F87060;
+    font-size:50px;
+}
+
+.babymonkey{
+    width:550px;
+    position:absolute;
+    right:150px;
+    top:110px;S
+}
+
+.fb{
+    width:30px;
+    border:5px solid#F87060;
+    border-radius:50%;
+    margin-left:190px;
+    margin-top:-10px;
+    
+}
+.insta{
+    width:30px;
+    border:5px solid#F87060;
+    border-radius:50%;
+    margin-top:-10px;
+    margin-left:15px;
+}
+.tiktok{
+    width:30px;
+    border:5px solid#F87060;
+    border-radius:50%;
+    margin-top:-10px;
+    margin-left:15px;
+}
+.yt{
+    width:30px;
+    border:5px solid#F87060;
+    border-radius:50%;
+    margin-top:-10px;
+    margin-left:15px;
+
+}
+.link{
+   text-decoration:none; 
+}
+.btn{
+    background-color:#F87060;
+    color:#102542;
+    font-family:arial;
+    padding:5px;
+    border-radius:20px;
+    width:200px;
+    margin-left:190px;
+    margin-top:10px;
+    border:none;
+}

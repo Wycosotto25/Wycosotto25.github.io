@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Group Portfolio — Members</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Group Portfolio</h1>
+      <nav class="nav">
+        <a href="#members">Members</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="container hero">
+      <h2>Showcasing each member’s skills & contact info</h2>      
+    </section>
+
+    <section id="members" class="container cards">
+      <h2>Members</h2>
+
+      <!-- Repeat this block for each member (or populate dynamically) -->
+      <article class="card member-card">
+        <img src="https://via.placeholder.com/120" alt="Member photo" />
+        <div class="card-body">
+          <h3 class="member-name">Member One</h3>
+          <p class="member-role">Front-end / Presentation</p>
+          <p class="member-about">Short bio: loves web dev and design.</p>
+
+          <ul class="contact-inline">
+            <li>Email: <a href="mailto:adrian@example.com">member1@example.com</a></li>
+            <li>Phone: <span>+63 912 345 6789</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card member-card">
+        <img src="https://via.placeholder.com/120" alt="Member photo" />
+        <div class="card-body">
+          <h3 class="member-name">Member Two</h3>
+          <p class="member-role">Back-end / Database</p>
+          <p class="member-about">Short bio: manages servers and databases.</p>
+
+          <ul class="contact-inline">
+            <li>Email: <a href="mailto:member2@example.com">member2@example.com</a></li>
+            <li>Phone: <span>+63 912 987 6543</span></li>
+          </ul>
+        </div>
+      </article>
+<article class="card member-card">
+        <img src="https://via.placeholder.com/120" alt="Member photo" />
+        <div class="card-body">
+          <h3 class="member-name">Etc....</h3>
+          <p class="member-role">Etc....</p>
+          <p class="member-about">Short bio: Etc....</p>
+
+          <ul class="contact-inline">
+            <li>Email: <a href="mailto:adrian@example.com">etc...@example.com</a></li>
+            <li>Phone: <span>Etc....</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Add more member cards as needed -->
+    </section>
+
+    <section id="skills" class="container">
+      <h2>Skills & Talents</h2>
+      <div class="skill-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">PHP / Backend</div>
+        <div class="skill">Presentation</div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact — Send a Message</h2>
+
+      <form id="contactForm" class="contact-form" autocomplete="off">
+        <label>
+          Your Name
+          <input type="text" id="name" name="name" required minlength="2" />
+        </label>
+
+        <label>
+          Your Email
+          <input type="email" id="email" name="email" required />
+        </label>
+
+        <label>
+          Recipient (choose)
+          <select id="recipient" name="recipient" required>
+            <option value="">Select member</option>
+            <option value="Adrian V.">Adrian V.</option>
+            <option value="Member Two">Member Two</option>
+            <!-- Add options for each member -->
+          </select>
+        </label>
+
+        <label>
+          Message
+          <textarea id="message" name="message" required minlength="5"></textarea>
+        </label>
+
+        <div class="form-actions">
+          <button type="submit">Send Message</button>
+          <span id="status" aria-live="polite"></span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 Group Portfolio — All rights reserved</small>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

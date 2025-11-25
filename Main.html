@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    
     <nav>
         <div id="logo">
             <h2> Group Portfolio</h2>
@@ -16,12 +17,26 @@
 
         <div>
             <ul>
+                <li><a href="#fpage">Home</a></li>
                 <li><a href="#sec2">Members</a></li>
                 <li><a href="#sec3">Skills</a></li>
                 <li><a href="#sec4">Contact</a></li>
             </ul>
         </div>
     </nav>
+
+    <div id = "fpage">
+        <h1>WELCOME TO INNOVATE SQUAD</h1>
+        <p>A collective of passionate IT professionals ready to build the future with you.</p>
+        <div class="fpageicon">
+            <img src="icon.png"/>
+            <img src="icon1.png"/>
+            <img src="R.png"/>
+            <img src="cssicon.png"/>
+            <img src="jsicon.png"/>
+        </div>
+        <button>Learn More</button>
+    </div>
 
     <div class="sec1">
         <p>Showcasing each member’s skills & contact info</p>
@@ -151,7 +166,7 @@
     
     <div id="sec4">
         <h2>Contact — Send a Message</h2>
-<form class="form" autocomplete="off">
+<form class="form" action="submit.php" method="POST" autocomplete="off">
         <label>
           Your Name
           <input type="text" id="name" name="name" required />

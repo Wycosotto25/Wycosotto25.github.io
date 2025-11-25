@@ -19,7 +19,7 @@ nav,
 .memNav5,
 .memNav6,
 .memNav7 {
-    background-color: #05182c;
+    background-color: black;
     display: flex;
     padding: 0.4rem;
     align-items: center;
@@ -27,9 +27,74 @@ nav,
     width: 100%;
 }
 
+#fpage{
+    background-color: black;
+    padding:10rem 10rem 15rem;
+    justify-content: center;
+    text-align: center;
+    color:white;
+}
+
+#fpage h1{
+font-family:arial black;
+font-size: 4rem;
+padding:6rem 1rem 1rem;
+opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 2s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#fpage p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.71);
+    opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 2s ease forwards;
+}
+
+#fpage .fpageicon img{
+    width:3rem;
+    padding:1rem 0rem 10rem;
+    margin:0rem 0.3rem;
+    opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 2s ease forwards;
+}
+
+#fpage button{
+    background-color: rgba(255, 255, 255, 0.943);
+     border-radius: 10px;
+     padding:0.8rem 3rem;  
+     font-family: arial;
+     font-weight: 900;
+     font-size: 1rem;
+     animation: flip 3s ease forwards;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+
+
 nav h2 {
     color: white;
-    margin: 1rem 41rem 1rem 14rem;
+    margin: 1rem 35rem 1rem 14rem;
     font-size: 1.1rem;
 }
 
@@ -603,7 +668,7 @@ footer p {
     }
 
     nav h2 {
-        margin: 1rem 33rem 1rem 5rem;
+        margin: 1rem 5rem 1rem 5rem;
         font-size: 1.1rem;
     }
 
@@ -615,6 +680,16 @@ footer p {
     li {
         font-weight: 600;
     }
+
+#fpage h1{
+padding:5rem 1rem 1rem;
+}
+
+#fpage button{
+     padding:1rem 3rem;  
+}
+
+
 
     .sec1 p {
         padding: 7rem 0rem 0rem 6rem;
@@ -630,7 +705,7 @@ footer p {
         display: grid;
         gap: 1rem;
         padding: 0rem 1rem 0rem;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .img1,
@@ -920,7 +995,7 @@ footer p {
     }
 
     nav h2 {
-        margin: 1rem 2rem;
+        margin: 1rem 1rem;
         font-size: 0.9rem;
     }
 
@@ -932,6 +1007,31 @@ footer p {
     li {
         font-weight: 600;
     }
+
+    #fpage{
+    padding:8rem 3rem 10rem;
+}
+
+#fpage h1{
+font-size: 2.7rem;
+padding:6rem 1rem 1rem;
+}
+
+#fpage p{
+    font-size: 1rem;
+}
+
+#fpage .fpageicon img{
+    width:2rem;
+    padding:1rem 0rem 10rem;
+    margin:0rem 0.3rem;
+}
+
+#fpage button{
+     padding:0.8rem 3rem;  
+     font-weight: 900;
+     font-size: 1rem;
+}
 
     .sec1 p {
         justify-content: center;
